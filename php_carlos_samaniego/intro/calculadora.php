@@ -9,7 +9,7 @@
     <h1>Calculadora PHP</h1>
     <form method="post" action="">
         <input type="number" name="numero1" placeholder="Numero1" required>
-        <input type="number" name="numero2" placeholder="Numero2" required>
+        <input type="number" name="numero2" placeholder="Numero2">
         <select name="operador">
             <option value="sumar">Suma (+)</option>
             <option value="restar">Resta (-)</option>
