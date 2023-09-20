@@ -59,6 +59,5 @@
         echo "<p>Resultado: $resultado</p>";
     }
     ?>
-    <input type="text" value="<?php echo "<p>Resultado: $resultado</p>";?>">
 </body>
 </html>
