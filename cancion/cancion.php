@@ -22,9 +22,9 @@ if($resultado -> num_rows > 0) {
 ?>
 
 <form method="post" action="controladorcancion.php">
-    <input type="text" name="autor" placeholder="Autor">
-    <input type="text" name="nombre" placeholder="Nombre de la canción">
-    <select name="genero_id">
+    <input type="text" name="autor" placeholder="Autor" required>
+    <input type="text" name="nombre" placeholder="Nombre de la canción" required>
+    <select name="genero_id" required>
         <?php
         $sql_genero = "select * from genero;";
         $res = $conexion -> query($sql_genero);
